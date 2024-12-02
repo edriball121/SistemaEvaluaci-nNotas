@@ -58,7 +58,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test.TestSistemaNotas.test_mostrar_notas">
+  <component name="RunManager" selected="Python tests.Python tests for test.TestSistemaNotas">
+    <configuration name="Python tests for test.TestSistemaNotas" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="SistemaEvaluaciónNotas" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestSistemaNotas&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test.TestSistemaNotas.test_calcular_promedio" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SistemaEvaluaciónNotas" />
       <option name="ENV_FILES" value="" />
@@ -88,22 +104,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test.TestSistemaNotas.test_generar_reporte_csv&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test.TestSistemaNotas.test_ingresar_nota_fuera_de_rango" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="SistemaEvaluaciónNotas" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestSistemaNotas.test_ingresar_nota_fuera_de_rango&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test.TestSistemaNotas" />
         <item itemvalue="Python tests.Python tests for test.TestSistemaNotas.test_mostrar_notas" />
         <item itemvalue="Python tests.Python tests for test.TestSistemaNotas.test_generar_reporte_csv" />
         <item itemvalue="Python tests.Python tests for test.TestSistemaNotas.test_calcular_promedio" />
         <item itemvalue="Python tests.Python tests for test.TestSistemaNotas.test_ingresar_nota_no_numero" />
-        <item itemvalue="Python tests.Python tests for test.TestSistemaNotas.test_ingresar_nota_fuera_de_rango" />
       </list>
     </recent_temporary>
   </component>
